@@ -1,15 +1,16 @@
 import React,{useState}from 'react';
 import { validateEmail } from '../../utils/helpers';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+import '../../App.css'
 
 
 function ContactForm(){
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const { name, email, message } = formState;
   const [errorMessage, setErrorMessage] = useState('');   
-  function handleSubmit(e) {
-      e.preventDefault();
-      console.log(formState);
-  }
+
+  
   function handleChange(e) {
     // update the name property of formState 
     if (e.target.name === 'email')
@@ -36,31 +37,36 @@ function ContactForm(){
   }
   function handleSubmit(e) {
     e.preventDefault();
+    if (!errorMessage) {
+      setFormState({ [e.target.name]: e.target.value });
+      console.log('Form', formState);
+    }
 }
 
 return (
-        <section id ="contact" className="justify-content-center">
-        <h1 data-testid="h1tag">Contact</h1>
-          <form id="contact-form" className = "justify-content-center" onSubmit={handleSubmit}>
-                <div>
-                <label htmlFor="name">Name:</label>
-                <input type="text" defaultValue={name}onBlur={handleChange} name="name"/>
-                </div>
-                <div>
-                <label htmlFor="email">Email:</label>
-                <input type="email" defaultValue={email} name="email" onBlur={handleChange}/>
-                </div>
-                <div>
-                <label htmlFor="message">Message:</label>
-                <textarea name="message" defaultValue={message}  onBlur={handleChange} rows="5" cols="5" />
-            </div>
+        <section id ="contact" className ="container">
+        <h2 data-testid="h1tag">Contact</h2>
+          <Form id="contact-form"  onSubmit={handleSubmit}>
+                <Form.Group controlId="name" className="flex-column" >
+                <Form.Label>Name</Form.Label>
+                <Form.Control type ="name" placeholder={name}onBlur={handleChange} name="name"/>
+                </Form.Group>
+
+                <Form.Group   controlId="formBasicEmail">
+                <Form.Label>Email</Form.Label>
+                <Form.Control type="email" placeholder={email} name="email" onBlur={handleChange}/>
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="message">
+                <Form.Label>Message</Form.Label>
+                <Form.Control type ="message" as="textarea"placeholder={message}  onBlur={handleChange} rows={3} style={{ height: '100px' }} />
+                </Form.Group>
             {errorMessage && (
               <div>
                 <p className="error-text">{errorMessage}</p>
               </div>
             )}
-            <button data-testid="button" className="btn btn-outline-dark mt-4" type="submit" onSubmit={handleSubmit}>Submit</button>
-          </form>
+            <Button data-testid="button" className="btn btn-outline-dark mt-4" type="submit" onSubmit={handleSubmit}>Submit</Button>
+          </Form>
         </section>
     );
 
