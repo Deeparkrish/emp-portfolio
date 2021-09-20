@@ -9,7 +9,7 @@ main {
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
-  --dark:#051947d8;
+  --dark:rgb(122, 12, 67);
   --darker: #081e47d8;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -54,6 +54,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  margin:auto;
 }
 
 h2 {
@@ -93,10 +94,19 @@ a:hover {
 
 header {
   background: var(--dark);
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top :0;
+  margin:0;
+      position: -webkit-sticky;
+      position: sticky;
+      z-index: 10000;
 }
 
 header a {
   color: var(--light);
+
 }
 
 button {
@@ -295,7 +305,7 @@ a {
 }
 
 .MyPicture {
-  height: 200px;
+  height: 150px;
   background-image: url(./assets/images/bg.jpg);
   background-size: cover;
   background-position: center;
@@ -305,4 +315,11 @@ a {
   position: relative;
   align-items: center;
   width: 100%;
+}
+
+footer{
+  width: 100%;
+  display :flex;
+  justify-content:center;
+  background-size:cover;  
 }

@@ -2,9 +2,10 @@ import React from 'react';
 import './App.css';
 import About from '../src/components/About';
 import Contact from '../src/components/Contact'
-
+import Project from '../src/components/Project'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Resume from './components/Resume'
 function App() {
 
   const [page, setPage] = React.useState('');
@@ -14,9 +15,13 @@ function App() {
       return <About />
     } else if (page === "contact") {
       return <Contact />
-    } else {
+    }else if (page === "portfolio") {
+      return <Project /> 
+    }else if (page === "resume") {
+      return <Resume /> 
+    }else {
       return (
-        <h1>Hello world page</h1>
+        <h1>Home Page</h1>
       )
     }
   }
@@ -27,8 +32,6 @@ function App() {
 
       <main>
         {showPage()}
-        {/* <About/>
-        <Contact/> */}
       </main>  
       <Footer/>
     </div>

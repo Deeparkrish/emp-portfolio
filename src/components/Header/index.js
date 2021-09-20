@@ -5,8 +5,8 @@ import Nav from '../../components/Nav'
 function Header ({ setPage }){
 
     return (
-        <header className="flex-row MyPicture" >
-             <h1>
+        <header className= "MyPicture" >
+             <h1 className ="flex-row">
                 <a href="/" onClick={() => setPage("")}> </a>
                 <i>Deepa Krishnan</i>
             </h1>
