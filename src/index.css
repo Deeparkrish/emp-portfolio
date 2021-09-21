@@ -9,8 +9,8 @@ main {
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
-  --dark: #130f53;
-  --darker: #020420;
+  --dark:rgb(122, 12, 67);
+  --darker: #081e47d8;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -54,6 +54,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  margin:auto;
 }
 
 h2 {
@@ -93,10 +94,19 @@ a:hover {
 
 header {
   background: var(--dark);
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top :0;
+  margin:0;
+      position: -webkit-sticky;
+      position: sticky;
+      z-index: 10000;
 }
 
 header a {
   color: var(--light);
+
 }
 
 button {
@@ -292,4 +302,63 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.MyPicture {
+  height: 150px;
+  background-image: url(./assets/images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content:flex-end;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+footer{
+  width: 100%;
+  display :flex;
+  justify-content:center;
+  background-size:cover;  
+}
+
+#contact-form {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.error-text{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+button {
+  background:rgb(11, 85, 78);
+}
+
+nav-head:hover {
+  color: var(--secondary);
+text-decoration: underline;
+text-shadow: var(--darker);
+
+}
+
+.logo {
+  width:50px;
+  height:40px;
+  
+}
+
+.myresume{
+  color:rgb(212, 149, 12)
+}
+
+.tech {
+  display:flex;
+  justify-content: space-between;
+
 }
