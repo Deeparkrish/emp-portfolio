@@ -15,7 +15,7 @@ function ProjectCard(props) {
               <a href={props.deploy}><img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/16/000000/external-launch-advertising-kiranshastry-solid-kiranshastry.png" alt="Deployed Site" id="project-icon"/></a> 
               </p>
               <p id="topics">
-                    ({props.topics})
+                    {props.topics}
                 </p>
         </div>
       </div>

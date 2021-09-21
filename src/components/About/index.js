@@ -6,8 +6,8 @@ function About(){
 
 
     return(
-        <section className ="my-5">
-            <h2 id ="about"><i>About Me</i></h2>
+        <section className ="my-5" id ="about">
+            <h2 ><i>About Me</i></h2>
             <hr/>
             <div>
             <img src={avatarImage} className="my-2" style={{ width: "100px", height:"100px" }} alt="avatar"></img>

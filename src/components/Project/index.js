@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectCard from '../ProjectCard';
-import './project.css';
 import projectArr from './projectArr.js';
+import './project.css';
 
 function ProjectInfo(props) {
   return <div className="projectdata">{props.children}</div>;
@@ -12,8 +12,8 @@ function Project () {
 
     return (
         <section>
-          <div className="project">
-            <h1 className="title">Project Portfolio</h1>
+          <div className="project" id ="project">
+            <h2 className="title"><i>Projects</i></h2>
             <hr></hr>
           </div>
 

@@ -32,13 +32,12 @@ function ContactForm() {
     }
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log('Handle Form', formState);
     }
   };
 
   return (
-    <section>
-      <h2 data-testid="h1tag">Contact</h2>
+    <section id="contact">
+      <h2 data-testid="h1tag"><i>Contact</i></h2>
       <hr/>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className ="form-field" className ="mx-2">

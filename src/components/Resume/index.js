@@ -13,14 +13,13 @@ import sqlogo from '../../assets/images/logo/sql-logo.png';
 import monglogo from '../../assets/images/logo/mongodb-logo.png';
 import gqllogo from '../../assets/images/logo/graphql.png';
 
-// import './resume.css'
+
 
 
 
 function Resume(){
-return(
-  
-            <div className='container'>
+return( 
+            <div className='container' id ="resume">
                  <h3>Skills</h3>
                  <hr/>
                 <div className='flex-row'>
