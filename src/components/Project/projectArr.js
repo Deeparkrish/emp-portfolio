@@ -1,10 +1,15 @@
-
+import covidTracker from '../../assets/images/project/covid.png';
+import techBlog from '../../assets/images/project/techblog.png';
+import budgetTracker from '../../assets/images/project/budget.png';
+import weatherDashboard from '../../assets/images/project/weather.png';
+import pwdGenerator from '../../assets/images/project/password.png';
+import hearthStone from '../../assets/images/project/hearthstone.png'
 export default 
     [
         {
         "id": 1,
         "name": "covid tracker ",
-        "image": "https://github.com/Deeparkrish/COVID-Tracker/blob/main/assets/img/mockup2.png",
+        "image": covidTracker,
         "github": "https://github.com/Deeparkrish/COVID-Tracker",
         "deploy": "https://deeparkrish.github.io/COVID-Tracker/",
         "topics": "HTML, Javascript, Bulma, Server side APIs, Leaflets, Local Storage"
@@ -13,7 +18,7 @@ export default
         {
         "id": 2,
         "name": "tech blog",
-        "image": "../../assets/images/project/techblog.png",
+        "image": techBlog,
         "github": "https://github.com/Deeparkrish/tech-blog",
         "deploy": "https://deepa-tech-blog.herokuapp.com/",
         "topics": "MVC, Bulma, bcrypt,express/node, MySQL, Sequelize,dotenv, handlebars"
@@ -21,7 +26,7 @@ export default
         {
         "id": 3,
         "name": "budget tracker",
-        "image": "../../assets/images/project/budget.png",
+        "image": budgetTracker,
         "github": "https://github.com/Deeparkrish/budget-tracker",
         "deploy": " https://deepa-budget-tracker.herokuapp.com/",
         "topics": "Javascript, PWA, IndexedDB, MongoDB, mongoose, express"
@@ -29,7 +34,7 @@ export default
         {
         "id": 4,
         "name": "weather dashboard",
-        "image": "./src/assets/images/project/weather.png",
+        "image": weatherDashboard,
         "github": "https://github.com/Deeparkrish/weather-report",
         "deploy": "https://deeparkrish.github.io/weather-report/",
         "topics": "Javascript, html, Bootstrap, Moment, API, Local Storage "
@@ -37,7 +42,7 @@ export default
         {
         "id": 5,
         "name": "password generator",
-        "image": "./src/assets/images/project/password.png",
+        "image": pwdGenerator,
         "github": "https://github.com/Deeparkrish/Passwordgenerator",
         "deploy": "https://deeparkrish.github.io/Passwordgenerator/",
         "topics": "HTML, CSS, API, Javascript, HTML DOM methods"
@@ -45,7 +50,7 @@ export default
         {
         "id": 6,
         "name": "hearthstone reviewer",
-        "image": "./src/assets/images/project/hearthstone.png",
+        "image": hearthStone,
         "github": "https://github.com/Deeparkrish/hearthstone_reviewer",
         "deploy": "https://hearthstone-reviewer.herokuapp.com/",
         "topics": "node /express-js, handlebars, MySQL, Sequelize, dotenv, bcrypt"

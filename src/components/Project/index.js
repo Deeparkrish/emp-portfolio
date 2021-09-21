@@ -1,16 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectCard from '../ProjectCard';
-import projectList from './projectList'
-import './project.css'
-function Project () { 
-  
+import './project.css';
+import projectArr from './projectArr.js';
 
 function ProjectInfo(props) {
-    return <div className="projectdata">{props.children}</div>;
+  return <div className="projectdata">{props.children}</div>;
 }
+function Project () { 
 
- 
 
     return (
         <section>
@@ -20,7 +18,7 @@ function ProjectInfo(props) {
           </div>
 
           <ProjectInfo id="card-data">
-            {projectList.map((project) => (
+            {projectArr.map((project) => (
               <ProjectCard  key={project.id}  name={project.name} image ={project.image} github={project.github} deploy={project.deploy} topics={project.topics}/>
             ))}
           </ProjectInfo>
