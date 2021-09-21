@@ -49,9 +49,9 @@
   }
   
   .card .img-container img {
-    width: 20%;
-    padding: 5px;
-    margin-bottom: auto;
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 20px;
     background-color: var(--platinum);
   }
   .card .content {
