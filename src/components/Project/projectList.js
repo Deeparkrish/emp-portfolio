@@ -7,7 +7,7 @@ export default
         "image": "https://github.com/Deeparkrish/COVID-Tracker/blob/main/assets/img/mockup2.png",
         "github": "https://github.com/Deeparkrish/COVID-Tracker",
         "deploy": "https://deeparkrish.github.io/COVID-Tracker/",
-        "topics": "HTML, Javascript, Bulma, Server side APIs , Leaflets, Local Storage"
+        "topics": "HTML, Javascript, Bulma, Server side APIs, Leaflets, Local Storage"
     
         },
         {
@@ -16,7 +16,7 @@ export default
         "image": "../../assets/images/project/techblog.png",
         "github": "https://github.com/Deeparkrish/tech-blog",
         "deploy": "https://deepa-tech-blog.herokuapp.com/",
-        "topics": "model-view-controller, bulma, bcrypt, express-js, mysql, sequelize, node-js, nodemon, dotenv, handlebars-js, jest"
+        "topics": "MVC, Bulma, bcrypt,express/node, MySQL, Sequelize,dotenv, handlebars"
         },
         {
         "id": 3,
@@ -24,7 +24,7 @@ export default
         "image": "../../assets/images/project/budget.png",
         "github": "https://github.com/Deeparkrish/budget-tracker",
         "deploy": " https://deepa-budget-tracker.herokuapp.com/",
-        "topics": "javascript, pwa, indexedDB, mongoDB, mongoose, compression, morgan, nodemon, express"
+        "topics": "Javascript, PWA, IndexedDB, MongoDB, mongoose, express"
         },
         {
         "id": 4,
@@ -32,7 +32,7 @@ export default
         "image": "./src/assets/images/project/weather.png",
         "github": "https://github.com/Deeparkrish/weather-report",
         "deploy": "https://deeparkrish.github.io/weather-report/",
-        "topics": "javascript, html, bootstrap, moment, API, Local Storage "
+        "topics": "Javascript, html, Bootstrap, Moment, API, Local Storage "
         },
         {
         "id": 5,
@@ -40,7 +40,7 @@ export default
         "image": "./src/assets/images/project/password.png",
         "github": "https://github.com/Deeparkrish/Passwordgenerator",
         "deploy": "https://deeparkrish.github.io/Passwordgenerator/",
-        "topics": "HTML, CSS, API, Java script"
+        "topics": "HTML, CSS, API, Javascript, HTML DOM methods"
           },
         {
         "id": 6,
@@ -48,7 +48,7 @@ export default
         "image": "./src/assets/images/project/hearthstone.png",
         "github": "https://github.com/Deeparkrish/hearthstone_reviewer",
         "deploy": "https://hearthstone-reviewer.herokuapp.com/",
-        "topics": "node-js, nodemon, express-js, handlebars-js, mysql, sequelize, dotenv, bcrypt, axios"
+        "topics": "node /express-js, handlebars, MySQL, Sequelize, dotenv, bcrypt"
     
         }
         
