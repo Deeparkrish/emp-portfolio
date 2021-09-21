@@ -323,3 +323,42 @@ footer{
   justify-content:center;
   background-size:cover;  
 }
+
+#contact-form {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.error-text{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+button {
+  background:rgb(11, 85, 78);
+}
+
+nav-head:hover {
+  color: var(--secondary);
+text-decoration: underline;
+text-shadow: var(--darker);
+
+}
+
+.logo {
+  width:50px;
+  height:40px;
+  
+}
+
+.myresume{
+  color:rgb(212, 149, 12)
+}
+
+.tech {
+  display:flex;
+  justify-content: space-between;
+
+}

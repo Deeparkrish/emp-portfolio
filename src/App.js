@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
+import './index.css'
 import About from '../src/components/About';
 import Contact from '../src/components/Contact'
-import Project from '../src/components/Project'
+import Project from './components/Project'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Resume from './components/Resume'

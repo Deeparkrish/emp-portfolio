@@ -1,75 +1,69 @@
-import React,{useState}from 'react';
-import { validateEmail } from '../../utils/helpers';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import '../../App.css'
+import React, { useState } from 'react';
 
+import { validateEmail,capitalizeFirstLetter } from '../../utils/helpers';
 
-function ContactForm(){
+function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-  const { name, email, message } = formState;
-  const [errorMessage, setErrorMessage] = useState('');   
 
-  
-  function handleChange(e) {
-    // update the name property of formState 
-    if (e.target.name === 'email')
-    {
-      const isValid = validateEmail(e.target.value);
-   
-      if (!isValid) {
-        setErrorMessage('Your email is invalid.');
-      } 
-      else 
-      {
-        if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-        } else {
-          setErrorMessage('');
-        }
-      }
-      if (!errorMessage) 
-      {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-      }
-  
-    }
-  }
-  function handleSubmit(e) {
+  const [errorMessage, setErrorMessage] = useState('');
+  const { name, email, message } = formState;
+
+  const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
-      setFormState({ [e.target.name]: e.target.value });
-      console.log('Form', formState);
+      console.log('Submit Form', formState);
     }
-}
+  };
 
-return (
-        <section id ="contact" className ="container">
-        <h2 data-testid="h1tag">Contact</h2>
-          <Form id="contact-form"  onSubmit={handleSubmit}>
-                <Form.Group controlId="name" className="flex-column" >
-                <Form.Label>Name</Form.Label>
-                <Form.Control type ="name" placeholder={name}onBlur={handleChange} name="name"/>
-                </Form.Group>
+  const handleChange = (e) => {
+    if (e.target.name === 'email') {
+      const isValid = validateEmail(e.target.value);
+      if (!isValid) {
+        setErrorMessage('Your email is invalid.');
+      } else {
+        setErrorMessage('');
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage('');
+      }
+    }
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+      console.log('Handle Form', formState);
+    }
+  };
 
-                <Form.Group   controlId="formBasicEmail">
-                <Form.Label>Email</Form.Label>
-                <Form.Control type="email" placeholder={email} name="email" onBlur={handleChange}/>
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="message">
-                <Form.Label>Message</Form.Label>
-                <Form.Control type ="message" as="textarea"placeholder={message}  onBlur={handleChange} rows={3} style={{ height: '100px' }} />
-                </Form.Group>
-            {errorMessage && (
-              <div>
-                <p className="error-text">{errorMessage}</p>
-              </div>
-            )}
-            <Button data-testid="button" className="btn btn-outline-dark mt-4" type="submit" onSubmit={handleSubmit}>Submit</Button>
-          </Form>
-        </section>
-    );
-
+  return (
+    <section>
+      <h2 data-testid="h1tag">Contact</h2>
+      <hr/>
+      <form id="contact-form" onSubmit={handleSubmit}>
+        <div className ="form-field" className ="mx-2">
+          <label htmlFor="name">Name  </label>
+          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+        </div>
+        <br/>
+        <div className ="form-field" className ="mx-2">
+          <label htmlFor="email">Email  </label>
+          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+        </div>
+        <div className ="form-field" className ="mx-2">
+          <label htmlFor="message">Message</label>
+  
+          <textarea name="message" rows="2" defaultValue={message} onBlur={handleChange} />
+        </div>
+        {errorMessage && (
+          <div className ="form-field" className ="mx-2">
+            <p  className="error-text">{capitalizeFirstLetter(errorMessage)}</p>
+          </div>
+        )}
+        <button  className ="mx-2" data-testid="button" type="submit">Submit</button>
+      </form>
+    </section>
+  );
 }
 
 export default ContactForm;

@@ -1,13 +1,14 @@
 import React from 'react';
 import avatarImage from "../../assets/images/DC.jpg";
-
+import '../../index.css'
 
 function About(){
 
 
     return(
         <section className ="my-5">
-            <h2 id ="about">About Me</h2>
+            <h2 id ="about"><i>About Me</i></h2>
+            <hr/>
             <div>
             <img src={avatarImage} className="my-2" style={{ width: "100px", height:"100px" }} alt="avatar"></img>
             </div>

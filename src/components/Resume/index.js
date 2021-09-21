@@ -13,7 +13,7 @@ import sqlogo from '../../assets/images/logo/sql-logo.png';
 import monglogo from '../../assets/images/logo/mongodb-logo.png';
 import gqllogo from '../../assets/images/logo/graphql.png';
 
-import './resume.css'
+// import './resume.css'
 
 
 
@@ -24,7 +24,7 @@ return(
                  <h3>Skills</h3>
                  <hr/>
                 <div className='flex-row'>
-                      <h4><i>Concepts:</i></h4>
+                      <h4><i>Concepts</i></h4>
                             <ul className ="flex-column">
                                 <li>Data Structures</li>
                                 <li>Algorithm</li>
@@ -33,34 +33,34 @@ return(
                                 
                 </div>
                 <div className='flex-column'>
-                        <h4><i>Technologies:</i></h4>
+                        <h4><i>Technologies</i></h4>
                         <div className='flex-row' className ='tech' >           
-                            <img src={html} alt ="html-css" className='img' />                   
-                            <img src={nexplogo}  alt ="node-express"className='img' />
+                            <img src={html} alt ="html-css" className='logo'  />                   
+                            <img src={nexplogo}  alt ="node-express"className='logo' />
                             
-                            <img src={jqlogo} alt ="jQuery" className='img' />
+                            <img src={jqlogo} alt ="jQuery" className='logo' />
                            
-                            <img src={bslogo}  alt ="bootstrap"className='img' />
+                            <img src={bslogo}  alt ="bootstrap"className='logo' />
                             
-                            <img src={wplogo}  alt ="web-pack"className='img' />
+                            <img src={wplogo}  alt ="web-pack"className='logo' />
                     
-                            <img src={sqlogo}  alt ="sql"className='img' />
+                            <img src={sqlogo}  alt ="sql"className='logo' />
                         
-                            <img src={seqlogo} alt ="sequelize" className='img' />
+                            <img src={seqlogo} alt ="sequelize" className='logo' />
                                                                 
-                            <img src={hblogo} alt ="handlebar" className='img' />
+                            <img src={hblogo} alt ="handlebar" className='logo' />
                                         
-                            <img src={monglogo} alt ="MongoDB"className='img' />
+                            <img src={monglogo} alt ="MongoDB"className='logo' />
              
-                            <img src={mernlogo} alt ="MERN"className='img' />
+                            <img src={mernlogo} alt ="MERN"className='logo' />
                            
-                            <img src={gqllogo} alt ="graphQL" className='img' />
+                            <img src={gqllogo} alt ="graphQL" className='logo' />
                              
                         </div>
                 </div>    
                 <div className="flex-row">
                             <div>
-                                <a href= {resumeFile} target="_blank"  rel="noreferrer" title ="Resume"><h4><u><i>Download Resume</i></u></h4></a>
+                                <a className ="myresume" href= {resumeFile} target="_blank"  rel="noreferrer" title ="Resume"><h4><u><i>Download Resume</i></u></h4></a>
 
                             </div>
                 </div>
