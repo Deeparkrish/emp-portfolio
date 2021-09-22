@@ -64,6 +64,14 @@ function ContactForm() {
         )}
         <button  className ="mx-2" data-testid="button" type="submit">Submit</button>
       </form>
+      <div>
+      <br/>
+                         
+        <h6 style={{color: "#F06543"}}><a href="mailto:kosalai17@gmail.com"><span className="pr-3"> </span><i>Click to email</i></a></h6>
+        <h6 style={{color: "#F06543"}}><a href="tel:123456789"><span className="pr-3"></span><i>Telephone</i></a></h6>
+                                              
+      </div>
+    
     </section>
   );
 }
