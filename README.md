@@ -19,6 +19,7 @@
    
   ## Description
    An employee portfolio that showcases the various skillsets of an employee using React.This will be a single page application (SPA).
+   This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
   
  
   ## Table of Contents 
@@ -35,7 +36,7 @@
   
   
   ##  Installation
-  This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
       npx create-react-app <app name>
       
 
@@ -75,8 +76,8 @@ If you aren’t satisfied with the build tool and configuration choices, you can
   
   
   ## License 
-  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)<br />
-  This app is covered under ISC license.
+  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)<br />
+  This app is covered under MIT license.
   
    ## Process
    
