@@ -90,8 +90,12 @@ If you aren’t satisfied with the build tool and configuration choices, you can
    *  Upon clicking on a navigation title, the user is presented with the corresponding section below the navigation without the page reloaded.
    *  When the portfolio is loaded for  the first time, the About Me title and section are selected by default.
    *  The About Me section contains a recent photo or avatar of the developer and a short bio about him.
-   *  The Portfolio section contains  titled images of six of the developer’s applications with links to both the deployed applications and 
-      the corresponding GitHub repository.
+   *  The Portfolio section contains  titled images of six of the developer’s applications.
+   *  Each project you feature in your portfolio, you should include the following:
+        *   An image of the deployed application ( a screenshot)
+        *   The title of the project
+        *   A link to the deployed application
+        *   A link to the corresponding GitHub repository
    *  The Contact section has a contact form with fields for a name, an email address, and a message.
    *  When the user moves the  cursor out of one of the form fields without entering text, he receives a notification that this field is required.
    *  The user also receives a notification if he enters an email thats not in the proper format, this validation is done 
