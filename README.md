@@ -91,7 +91,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
    *  When the portfolio is loaded for  the first time, the About Me title and section are selected by default.
    *  The About Me section contains a recent photo or avatar of the developer and a short bio about him.
    *  The Portfolio section contains  titled images of six of the developer’s applications.
-   *  Each project you feature in your portfolio, you should include the following:
+   *  Each project  featured in the portfolio, includes the following:
         *   An image of the deployed application ( a screenshot)
         *   The title of the project
         *   A link to the deployed application
