@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/emp-portfolio/static/css/main.543f8087.chunk.css",
+    "main.js": "/emp-portfolio/static/js/main.f7249373.chunk.js",
+    "main.js.map": "/emp-portfolio/static/js/main.f7249373.chunk.js.map",
+    "runtime-main.js": "/emp-portfolio/static/js/runtime-main.b42aaecd.js",
+    "runtime-main.js.map": "/emp-portfolio/static/js/runtime-main.b42aaecd.js.map",
+    "static/css/2.818011ed.chunk.css": "/emp-portfolio/static/css/2.818011ed.chunk.css",
+    "static/js/2.dd98e2a3.chunk.js": "/emp-portfolio/static/js/2.dd98e2a3.chunk.js",
+    "static/js/2.dd98e2a3.chunk.js.map": "/emp-portfolio/static/js/2.dd98e2a3.chunk.js.map",
+    "static/js/3.6b95141d.chunk.js": "/emp-portfolio/static/js/3.6b95141d.chunk.js",
+    "static/js/3.6b95141d.chunk.js.map": "/emp-portfolio/static/js/3.6b95141d.chunk.js.map",
+    "index.html": "/emp-portfolio/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/emp-portfolio/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.543f8087.chunk.css.map": "/emp-portfolio/static/css/main.543f8087.chunk.css.map",
+    "static/js/2.dd98e2a3.chunk.js.LICENSE.txt": "/emp-portfolio/static/js/2.dd98e2a3.chunk.js.LICENSE.txt",
+    "static/media/DC.fd9b889c.jpg": "/emp-portfolio/static/media/DC.fd9b889c.jpg",
+    "static/media/Deepa-Resume.593caa9d.pdf": "/emp-portfolio/static/media/Deepa-Resume.593caa9d.pdf",
+    "static/media/index.css": "/emp-portfolio/static/media/bg.c7e2e282.jpg",
+    "static/media/bootstrap-logo.0d55f027.png": "/emp-portfolio/static/media/bootstrap-logo.0d55f027.png",
+    "static/media/budget.cbf8ec09.png": "/emp-portfolio/static/media/budget.cbf8ec09.png",
+    "static/media/covid.e64f6a75.png": "/emp-portfolio/static/media/covid.e64f6a75.png",
+    "static/media/hearthstone.927429f8.png": "/emp-portfolio/static/media/hearthstone.927429f8.png",
+    "static/media/html.2d7f77f8.png": "/emp-portfolio/static/media/html.2d7f77f8.png",
+    "static/media/jquery-logo.4eab892a.png": "/emp-portfolio/static/media/jquery-logo.4eab892a.png",
+    "static/media/mern-logo.e2d1af46.png": "/emp-portfolio/static/media/mern-logo.e2d1af46.png",
+    "static/media/mongodb-logo.66932197.png": "/emp-portfolio/static/media/mongodb-logo.66932197.png",
+    "static/media/password.ee3a9988.png": "/emp-portfolio/static/media/password.ee3a9988.png",
+    "static/media/sql-logo.8c53f465.png": "/emp-portfolio/static/media/sql-logo.8c53f465.png",
+    "static/media/techblog.4100d904.png": "/emp-portfolio/static/media/techblog.4100d904.png",
+    "static/media/weather.a1f67400.png": "/emp-portfolio/static/media/weather.a1f67400.png",
+    "static/media/webpack-logo.5bd3fd12.png": "/emp-portfolio/static/media/webpack-logo.5bd3fd12.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b42aaecd.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.dd98e2a3.chunk.js",
+    "static/css/main.543f8087.chunk.css",
+    "static/js/main.f7249373.chunk.js"
+  ]
+}
