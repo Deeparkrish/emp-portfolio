@@ -10,7 +10,7 @@ function Footer(){
           <li><a href="mailto:kosalai17@gmail.com"><img src="https://img.icons8.com/color/48/000000/apple-mail.png" width ="32px" height="30px" alt ="Email"/></a></li>
           <li><a href="https://github.com/Deeparkrish" target="_blank"  rel="noreferrer"><img src ="https://img.icons8.com/windows/32/000000/github.png" alt ="Github"></img></a></li>
           <li><a href="https://www.linkedin.com/feed/" target="_blank"  rel="noreferrer"><img src="https://img.icons8.com/color/48/000000/linkedin.png" width ="32px" height="30px" alt = "LinkedIn"></img></a></li> 
-          <li><a href="https://acmeco.slack.com/?redir=%2Fteam%2FU01VBAU1CLX" target="_blank"  rel="noreferrer"><img src="https://img.icons8.com/color/48/000000/slack-new.png" width ="32px" height="30px" alt = "LinkedIn"></img></a></li>     
+          <li><a href="https://acmeco.slack.com/?redir=%2Fteam%2FU01VBAU1CLX" target="_blank"  rel="noreferrer"><img src="https://img.icons8.com/color/48/000000/slack-new.png" width ="32px" height="30px" alt = "Slack"></img></a></li>     
           
         </ul>
        
