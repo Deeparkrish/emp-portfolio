@@ -117,11 +117,12 @@ If you aren’t satisfied with the build tool and configuration choices, you can
  
  
   ##  Mockup
-  ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/about.png)
+  <div>
+  <img src ="https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/about.png" width ="500px" height ="500px" />
   ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/project.png)
   ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/resume.png)
   ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/contact.png)
- 
+  </div>
 
   ## Testing
    App can be tested on your browser/ deployed heroku site
