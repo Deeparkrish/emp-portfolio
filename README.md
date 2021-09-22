@@ -117,8 +117,10 @@ If you aren’t satisfied with the build tool and configuration choices, you can
  
  
   ##  Mockup
-  ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/mockup.png)
-  
+  ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/about.png)
+  ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/project.png)
+  ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/resume.png)
+  ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/contact.png)
  
 
   ## Testing
