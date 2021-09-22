@@ -12,8 +12,7 @@ import hblogo from '../../assets/images/logo/handlebars-logo.png';
 import sqlogo from '../../assets/images/logo/sql-logo.png';
 import monglogo from '../../assets/images/logo/mongodb-logo.png';
 import gqllogo from '../../assets/images/logo/graphql.png';
-
-
+import '../../App.css'
 
 
 
@@ -31,9 +30,9 @@ return(
                             </ul>
                                 
                 </div>
-                <div className='flex-column'>
+                <div className='flex-column' className ="flex-wrap">
                         <h4><i>Technologies</i></h4>
-                        <div className='flex-row' className ='tech' >           
+                        <div  className='flex-row' className ='tech' >           
                             <img src={html} alt ="html-css" className='logo'  />                   
                             <img src={nexplogo}  alt ="node-express"className='logo' />
                             

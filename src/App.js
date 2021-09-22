@@ -22,7 +22,7 @@ function App() {
       return <Resume /> 
     }else {
       return (
-        <h1>Home Page</h1>
+       <About/>
       )
     }
   }

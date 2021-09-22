@@ -8,12 +8,6 @@ function ContactForm() {
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!errorMessage) {
-      console.log('Submit Form', formState);
-    }
-  };
 
   const handleChange = (e) => {
     if (e.target.name === 'email') {
@@ -34,6 +28,14 @@ function ContactForm() {
       setFormState({ ...formState, [e.target.name]: e.target.value });
     }
   };
+  function handleSubmit(e) {
+    e.preventDefault();
+    if (!errorMessage) {
+      setFormState({ [e.target.name]: e.target.value });
+      console.log('Form', formState);
+     
+    }
+}
 
   return (
     <section id="contact">
@@ -61,6 +63,14 @@ function ContactForm() {
         )}
         <button  className ="mx-2" data-testid="button" type="submit">Submit</button>
       </form>
+      <div>
+      <br/>
+                         
+        <h6 style={{color: "#F06543"}}><a href="mailto:kosalai17@gmail.com"><span className="pr-3"> </span><i>Click to email</i></a></h6>
+        <h6 style={{color: "#F06543"}}><a href="tel:123456789"><span className="pr-3"></span><i>Telephone</i></a></h6>
+                                              
+      </div>
+    
     </section>
   );
 }
