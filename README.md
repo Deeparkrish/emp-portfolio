@@ -123,10 +123,11 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
   ## Testing
    App can be tested on your browser/ deployed heroku site
-    browser : http://localhost:3001
+    browser : http://localhost:3000
   
 
   ## Deployment
+  
   
 
   ## Contribution
