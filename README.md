@@ -117,9 +117,12 @@ If you aren’t satisfied with the build tool and configuration choices, you can
  
  
   ##  Mockup
-  ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/mockup.png)
-  
- 
+  <div>
+  <img src ="https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/about.png" width ="400px" height ="300px" />
+  <img src ="https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/project.png"  width ="400px" height ="300px" />
+  <img src = "https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/resume.png" width ="400px" height ="300px" />
+  <img src ="https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/contact.png"  width ="400px" height ="300px" />
+  </div>
 
   ## Testing
    App can be tested on your browser/ deployed heroku site
