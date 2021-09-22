@@ -16,7 +16,9 @@
     box-shadow: 0 2px 2px var(--onyx), 0 6px 12px var(--onyx);
   }
   
-
+.project{
+  color:black;
+}
   
 
   #project-icon {
