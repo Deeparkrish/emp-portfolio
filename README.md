@@ -107,6 +107,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
         *   A single Navigation component within the header that will be used to conditionally render the different sections of the portfolio.
         *   A single Project component that will be used multiple times in the Portfolio section
         *   A single Footer component that appears on multiple pages   
+   * The app is deployed on Githubpages.
         
   ## Technologies 
   * Reactjs: React is a JavaScript library for building modern applications.It can be used for development of both web and mobile applications
@@ -134,7 +135,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
    ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/deploy.png)
     
    ### Link 
-   Github Page:https://deeparkrish.github.io/emp-portfolio
+   https://deeparkrish.github.io/emp-portfolio
   
 
   ## Contribution
