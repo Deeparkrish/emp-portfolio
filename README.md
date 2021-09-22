@@ -130,7 +130,11 @@ If you aren’t satisfied with the build tool and configuration choices, you can
   
 
   ## Deployment
-  
+   ### Mockup 
+   ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/deploy.png)
+    
+   ### Link 
+    Github Page:https://deeparkrish.github.io/emp-portfolio
   
 
   ## Contribution
