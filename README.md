@@ -18,7 +18,9 @@
 </p>
    
   ## Description
-   An employee portfolio that showcases the various skillsets of an employee using React.This will be a single page application (SPA).
+   An employee portfolio that showcases the various skillsets of an employee using React, that helps an employer looking for 
+   candidates with experience building single-page application, sassess whether he/she is  a good candidate for an open position.  
+   This will be a single page application (SPA).
    This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
   
  
@@ -31,7 +33,7 @@
   * [Technologies](#technologies)
   * [MockUp](#mockup)
   * [Testing](#testing)
-  * [HerokuApp](#herokuapp)
+  * [Deployment](#deployment)
   * [Contribution](#contribution)
   
   
@@ -80,6 +82,22 @@ If you aren’t satisfied with the build tool and configuration choices, you can
   This app is covered under MIT license.
   
    ## Process
+   This  single-page application portfolio for a web developer functios as follows :
+   *  When the portfolio app is loaded, the launching  page containing a header, a section for content, and a footer is displayed.
+   *  The header contains : the developer's name and navigation with titles corresponding to different sections of the portfolio.
+   *  The different sections  include  About Me, Portfolio, Contact, and Resume. 
+   *  Upon selecting a nav title  it is highlighted. 
+   *  Upon clicking on a navigation title, the user is presented with the corresponding section below the navigation without the page reloaded.
+   *  When the portfolio is loaded for  the first time, the About Me title and section are selected by default.
+   *  The About Me section contains a recent photo or avatar of the developer and a short bio about him.
+   *  The Portfolio section contains  titled images of six of the developer’s applications with links to both the deployed applications and 
+      the corresponding GitHub repository.
+   *  The Contact section has a contact form with fields for a name, an email address, and a message.
+   *  When the user moves the  cursor out of one of the form fields without entering text, he receives a notification that this field is required.
+   *  The user also receives a notification if he enters an email thats not in the proper format, this validation is done 
+      using a helper function called, 'validateEmail'.
+   *  The Resume section has  a list of the developer’s proficiencies and a link to a downloadable resume.
+   *  The footer holds, icon links to the developer’s Phone, Email, GitHub and LinkedIn profiles.
    
   ## Technologies 
   * Reactjs: 
@@ -102,7 +120,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
     browser : http://localhost:3001
   
 
-  ## Deployed link
+  ## Deployment
   
 
   ## Contribution
