@@ -1,8 +1,50 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Employee Portfolio  
+    
+  <p align="left">
+    <img src="https://img.shields.io/github/repo-size/deeparkrish/emp-portfolio" />
+    <img src="https://img.shields.io/github/issues/deeparkrish/emp-portfolio" />
+    <img src="https://img.shields.io/github/last-commit/deeparkrish/emp-portfolio" >       
+  </p>
+  <p align="left"> 
+     <img src="https://img.shields.io/github/languages/top/deeparkrish/emp-portfolio"/>
+    <img src="https://img.shields.io/badge/React.js-blue"  />
+    <img src="https://img.shields.io/badge/-node.js-green" />
+    <img src="https://img.shields.io/badge/-express-red" >
+    <img src="https://img.shields.io/badge/-JSX-orange"/>
+    <img src="https://img.shields.io/badge/-HTML-lightgreen"/>
+    <img src="https://img.shields.io/badge/-BootStrap-pink"/>
 
-## Available Scripts
+</p>
+   
+  ## Description
+   An employee portfolio that showcases the various skillsets of an employee using React, that helps an employer looking for 
+   candidates with experience building single-page application, sassess whether he/she is  a good candidate for an open position.  
+   This will be a single page application (SPA).
+   This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
+ 
+  ## Table of Contents 
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Process](#process)
+  * [Technologies](#technologies)
+  * [MockUp](#mockup)
+  * [Testing](#testing)
+  * [Deployment](#deployment)
+  * [Contribution](#contribution)
+  
+  
+  ##  Installation
+  
+      npx create-react-app <app name>
+      
+
+   ##  Usage
+  
+ 
 
 In the project directory, you can run:
 
@@ -27,44 +69,75 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  
+  
+  ## License 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)<br />
+  This app is covered under MIT license.
+  
+   ## Process
+   This  single-page application portfolio for a web developer functios as follows :
+   *  When the portfolio app is loaded, the launching  page containing a header, a section for content, and a footer is displayed.
+   *  The header contains : the developer's name and navigation with titles corresponding to different sections of the portfolio.
+   *  The different sections  include  About Me, Portfolio, Contact, and Resume. 
+   *  Upon selecting a nav title  it is highlighted. 
+   *  Upon clicking on a navigation title, the user is presented with the corresponding section below the navigation without the page reloaded.
+   *  When the portfolio is loaded for  the first time, the About Me title and section are selected by default.
+   *  The About Me section contains a recent photo or avatar of the developer and a short bio about him.
+   *  The Portfolio section contains  titled images of six of the developer’s applications.
+   *  Each project  featured in the portfolio, includes the following:
+        *   An image of the deployed application ( a screenshot)
+        *   The title of the project
+        *   A link to the deployed application
+        *   A link to the corresponding GitHub repository
+   *  The Contact section has a contact form with fields for a name, an email address, and a message.
+   *  When the user moves the  cursor out of one of the form fields without entering text, he receives a notification that this field is required.
+   *  The user also receives a notification if he enters an email thats not in the proper format, this validation is done 
+      using a helper function called, 'validateEmail'.
+   *  The Resume section has  a list of the developer’s proficiencies and a link to a downloadable resume.
+   *  The footer holds, icon links to the developer’s Phone, Email, GitHub and LinkedIn profiles.
+   *  The different sections of the portfolio page is accomplished using Components :
+        *   A single Header component that appears on multiple pages
+        *   A single Navigation component within the header that will be used to conditionally render the different sections of the portfolio.
+        *   A single Project component that will be used multiple times in the Portfolio section
+        *   A single Footer component that appears on multiple pages   
+        
+  ## Technologies 
+  * Reactjs: React is a JavaScript library for building modern applications.It can be used for development of both web and mobile applications
+  * JSX  : A syntax extension of JavaScript. It allows us to directly write HTML in React (within JavaScript code). .
+  * Bootstrap : Open-source CSS framework directed at responsive, mobile-first front-end web developmen
+  * npm : A package manager for the JavaScript programming.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ 
+ 
+  ##  Mockup
+  ![Image](https://github.com/Deeparkrish/budget-tracker/blob/main/assets/images/mockup.png)
+  
+ 
 
-## Learn More
+  ## Testing
+   App can be tested on your browser/ deployed heroku site
+    browser : http://localhost:3000
+  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ## Deployment
+  
+  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  ## Contribution
+  Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)
+  
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
