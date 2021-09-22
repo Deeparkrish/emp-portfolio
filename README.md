@@ -109,8 +109,8 @@ If you aren’t satisfied with the build tool and configuration choices, you can
         *   A single Footer component that appears on multiple pages   
         
   ## Technologies 
-  * Reactjs: 
-  *JSX  : A syntax extension of JavaScript. It allows us to directly write HTML in React (within JavaScript code). .
+  * Reactjs: , React is a JavaScript library for building modern applications.It can be used for development of both web and mobile applications
+  * JSX  : A syntax extension of JavaScript. It allows us to directly write HTML in React (within JavaScript code). .
   * Bootstrap : Open-source CSS framework directed at responsive, mobile-first front-end web development
   * Service Workers : PWAs can ensure applications work without an internet connection by using Service Workers.They cache and serve data from the browser cache.
   * Web Manifest file(manifest.json): To hold the app’s metadata, to let users’ devices know what they’re installing and how the app should look on 
