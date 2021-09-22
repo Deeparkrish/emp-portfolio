@@ -118,10 +118,10 @@ If you aren’t satisfied with the build tool and configuration choices, you can
  
   ##  Mockup
   <div>
-  <img src ="https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/about.png" width ="500px" height ="500px" />
-  ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/project.png)
-  ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/resume.png)
-  ![Image](https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/contact.png)
+  <img src ="https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/about.png" width ="600px" height ="400px" />
+  <img src ="https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/project.png"  width ="600px" height ="400px" />
+  <img src = "https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/resume.png" width ="600px" height ="400px" />
+  <img src ="https://github.com/Deeparkrish/emp-portfolio/blob/main/src/assets/images/mockup/contact.png"  width ="600px" height ="400px" />
   </div>
 
   ## Testing
