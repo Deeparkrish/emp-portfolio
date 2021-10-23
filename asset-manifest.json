@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/emp-portfolio/static/css/main.cfd3d2d8.chunk.css",
-    "main.js": "/emp-portfolio/static/js/main.35861975.chunk.js",
-    "main.js.map": "/emp-portfolio/static/js/main.35861975.chunk.js.map",
-    "runtime-main.js": "/emp-portfolio/static/js/runtime-main.b42aaecd.js",
-    "runtime-main.js.map": "/emp-portfolio/static/js/runtime-main.b42aaecd.js.map",
+    "main.css": "/emp-portfolio/static/css/main.20a6594a.chunk.css",
+    "main.js": "/emp-portfolio/static/js/main.2290a206.chunk.js",
+    "main.js.map": "/emp-portfolio/static/js/main.2290a206.chunk.js.map",
+    "runtime-main.js": "/emp-portfolio/static/js/runtime-main.092569cc.js",
+    "runtime-main.js.map": "/emp-portfolio/static/js/runtime-main.092569cc.js.map",
     "static/css/2.818011ed.chunk.css": "/emp-portfolio/static/css/2.818011ed.chunk.css",
-    "static/js/2.dd98e2a3.chunk.js": "/emp-portfolio/static/js/2.dd98e2a3.chunk.js",
-    "static/js/2.dd98e2a3.chunk.js.map": "/emp-portfolio/static/js/2.dd98e2a3.chunk.js.map",
-    "static/js/3.6b95141d.chunk.js": "/emp-portfolio/static/js/3.6b95141d.chunk.js",
-    "static/js/3.6b95141d.chunk.js.map": "/emp-portfolio/static/js/3.6b95141d.chunk.js.map",
+    "static/js/2.54f35921.chunk.js": "/emp-portfolio/static/js/2.54f35921.chunk.js",
+    "static/js/2.54f35921.chunk.js.map": "/emp-portfolio/static/js/2.54f35921.chunk.js.map",
+    "static/js/3.7f92324c.chunk.js": "/emp-portfolio/static/js/3.7f92324c.chunk.js",
+    "static/js/3.7f92324c.chunk.js.map": "/emp-portfolio/static/js/3.7f92324c.chunk.js.map",
     "index.html": "/emp-portfolio/index.html",
     "static/css/2.818011ed.chunk.css.map": "/emp-portfolio/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.cfd3d2d8.chunk.css.map": "/emp-portfolio/static/css/main.cfd3d2d8.chunk.css.map",
-    "static/js/2.dd98e2a3.chunk.js.LICENSE.txt": "/emp-portfolio/static/js/2.dd98e2a3.chunk.js.LICENSE.txt",
-    "static/media/DC.fd9b889c.jpg": "/emp-portfolio/static/media/DC.fd9b889c.jpg",
+    "static/css/main.20a6594a.chunk.css.map": "/emp-portfolio/static/css/main.20a6594a.chunk.css.map",
+    "static/js/2.54f35921.chunk.js.LICENSE.txt": "/emp-portfolio/static/js/2.54f35921.chunk.js.LICENSE.txt",
+    "static/media/DC.413640d8.jpg": "/emp-portfolio/static/media/DC.413640d8.jpg",
     "static/media/Deepa-Resume.593caa9d.pdf": "/emp-portfolio/static/media/Deepa-Resume.593caa9d.pdf",
     "static/media/index.css": "/emp-portfolio/static/media/bg.c7e2e282.jpg",
     "static/media/bootstrap-logo.0d55f027.png": "/emp-portfolio/static/media/bootstrap-logo.0d55f027.png",
@@ -32,10 +32,10 @@
     "static/media/webpack-logo.5bd3fd12.png": "/emp-portfolio/static/media/webpack-logo.5bd3fd12.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b42aaecd.js",
+    "static/js/runtime-main.092569cc.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.dd98e2a3.chunk.js",
-    "static/css/main.cfd3d2d8.chunk.css",
-    "static/js/main.35861975.chunk.js"
+    "static/js/2.54f35921.chunk.js",
+    "static/css/main.20a6594a.chunk.css",
+    "static/js/main.2290a206.chunk.js"
   ]
 }
