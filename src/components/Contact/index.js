@@ -3,45 +3,45 @@ import React, { useState } from 'react';
 import { validateEmail,capitalizeFirstLetter } from '../../utils/helpers';
 
 function ContactForm() {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+//   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
-  const [errorMessage, setErrorMessage] = useState('');
-  const { name, email, message } = formState;
+//   const [errorMessage, setErrorMessage] = useState('');
+//   const { name, email, message } = formState;
 
 
-  const handleChange = (e) => {
-    if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
-      if (!isValid) {
-        setErrorMessage('Your email is invalid.');
-      } else {
-        setErrorMessage('');
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage('');
-      }
-    }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-    }
-  };
-  function handleSubmit(e) {
-    e.preventDefault();
-    if (!errorMessage) {
-      setFormState({ [e.target.name]: e.target.value });
-      console.log('Form', formState);
+//   const handleChange = (e) => {
+//     if (e.target.name === 'email') {
+//       const isValid = validateEmail(e.target.value);
+//       if (!isValid) {
+//         setErrorMessage('Your email is invalid.');
+//       } else {
+//         setErrorMessage('');
+//       }
+//     } else {
+//       if (!e.target.value.length) {
+//         setErrorMessage(`${e.target.name} is required.`);
+//       } else {
+//         setErrorMessage('');
+//       }
+//     }
+//     if (!errorMessage) {
+//       setFormState({ ...formState, [e.target.name]: e.target.value });
+//     }
+//   };
+//   function handleSubmit(e) {
+//     e.preventDefault();
+//     if (!errorMessage) {
+//       setFormState({ [e.target.name]: e.target.value });
+//       console.log('Form', formState);
      
-    }
-}
+//     }
+// }
 
   return (
     <section id="contact">
       <h2 data-testid="h1tag"><i>Contact</i></h2>
       <hr/>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      {/* <form id="contact-form" onSubmit={handleSubmit}>
         <div className ="form-field" className ="mx-2">
           <label htmlFor="name">Name  </label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -62,12 +62,13 @@ function ContactForm() {
           </div>
         )}
         <button  className ="mx-2" data-testid="button" type="submit">Submit</button>
-      </form>
+      </form> */}
+
       <div>
       <br/>
                          
-        <h6 style={{color: "#F06543"}}><a href="mailto:kosalai17@gmail.com"><span className="pr-3"> </span><i>Click to email</i></a></h6>
-        <h6 style={{color: "#F06543"}}><a href="tel:123456789"><span className="pr-3"></span><i>Telephone</i></a></h6>
+        <h6 style={{color: "#F06543"}}>Send an email:<a href="mailto:kosalai17@gmail.com"><span className="pr-3"> </span>click here</a></h6>
+        <h6 style={{color: "#F06543"}}>Visit my github<a href="https://github.com/Deeparkrish"><span className="pr-3"></span>click here</a></h6>
                                               
       </div>
     

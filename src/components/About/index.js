@@ -10,9 +10,9 @@ function About(){
             <h2 ><i>About Me</i></h2>
             <hr/>
             <div>
-            <img src={avatarImage} className="my-2" style={{ width: "100px", height:"100px" }} alt="avatar"></img>
+            <img src={avatarImage} className="my-2" style={{ width: "100px", height:"150px" }} alt="avatar"></img>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className ="aboutme">Exceptionally creative and dependable entry level Web-Developer, knowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction and maintenance. Highly adept at conveying complex technical information to a variety of professional and lay audiences in a clear and understandable manner.I seek challenging opportunities where I can fully use my skills for the success of the organization.</p>
         </section>
     );
 }
