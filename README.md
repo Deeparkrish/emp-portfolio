@@ -42,11 +42,8 @@
       npx create-react-app <app name>
       
 
-   ##  Usage
-  
- 
-
-In the project directory, you can run:
+ ##  Usage
+  In the project directory, you can run:
 
 ### `npm start`
 
@@ -141,11 +138,6 @@ If you aren’t satisfied with the build tool and configuration choices, you can
   ## Contribution
   Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)
   
-
-
-
-
-
 
 
 
